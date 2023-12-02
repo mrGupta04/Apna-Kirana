@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .rating i {
+            color: red;
+            margin-right: 3px; /* Adjust as needed to provide spacing between stars */
+        }
+
+        #clients {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f6f6f656;
+            border-top: 1px solid #f3f3f3;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 20px;
+        }
+
+        .client-heading h3 {
+            font-size: 1.56rem;
+            color: #202020;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        .client-box-set-container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .client-box-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .client-box {
+            width: 100%;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #f1f1f1;
+            box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .client-box:hover {
+            background-color: #c3eecd;
+            color: #ffffff;
+            transition: 0.3s all ease-in-out;
+            cursor: pointer;
+        }
+
+        .client-profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .client-profile img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .profile-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-text strong {
+            color: #393939;
+            font-size: 1rem;
+            font-weight: 600;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .profile-text span {
+            color: #949494;
+            font-weight: 500;
+            font-size: 0.9rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            margin-top: 5px; /* Add margin for spacing */
+        }
+
+        .rating i::before {
+            content: '\2605'; /* Unicode character for a solid star */
+        }
+
+        .client-box p {
+            color: #7c7c7c;
+            overflow: hidden;
+            white-space: normal;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+<section id="clients">
+    <div class="client-heading">
+        <h3>What Our Clients Say</h3>
+    </div>
+
+    <div class="client-box-set-container">
+        <!-- Set 1 -->
+        <div class="client-box-container">
+            <!--box 1 -->
+            <div class="client-box">
+                <!--profile-->
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 1.jpg">
+                    <div class="profile-text">
+                        <strong>Abid</strong>
+                        <span>student</span>
+                    </div>
+                </div>
+                <!--Rating-->
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <!--comments-->
+                <p>Apna kirana Store is the best. AKS never fails to disappoint me. Grocery shopping has become so
+                    easy with Apna Kirana Store.</p>
+            </div>
+
+            <!--box 2 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 2.jpg">
+                    <div class="profile-text">
+                        <strong>Subham</strong>
+                        <span>Engineer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>Apna Kirana Store is just amazing. I can buy all my groceries from a single place. The groceries are
+                    available at very affordable prices. And, the groceries are delivered at the time slot you choose
+                    and prefer.</p>
+            </div>
+
+            <!--box 3 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 3.jpg">
+                    <div class="profile-text">
+                        <strong>Manvendra</strong>
+                        <span>Doctor</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>I love the convenience Apna Kirana offers. From fresh produce to household essentials, everything I
+                    need is just a click away. The quality of products and service is outstanding.</p>
+            </div>
+        </div>
+
+        <!-- Set 2 -->
+        <div class="client-box-container">
+            <!--box 4 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 4.jpg">
+                    <div class="profile-text">
+                        <strong>Rahul</strong>
+                        <span>Advocate</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>The customer service at Apna Kirana is exceptional. They go above and beyond to ensure customer
+                    satisfaction. I appreciate the attention to detail and prompt responses to any queries.</p>
+            </div>
+
+            <!--box 5 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 5.jpg">
+                    <div class="profile-text">
+                        <strong>Aparna</strong>
+                        <span>Accountant</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>Shopping at Apna Kirana Store is a delightful experience. The website is intuitive, the prices are
+                    competitive, and the delivery is reliable. It's a one-stop solution for all my grocery needs.</p>
+            </div>
+
+            <!--box 6 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 6.jpg">
+                    <div class="profile-text">
+                        <strong>Aman</strong>
+                        <span>Business Man</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>The 5-star rating is well-deserved! Apna Kirana not only meets but exceeds expectations The
+                    delivery is always on time, and the products are carefully packed. A reliable choice for busy
+                    individuals.</p>
+            </div>
+        </div>
+
+        <!-- Set 3 -->
+        <div class="client-box-container">
+            <!--box 7 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 7.jpg">
+                    <div class="profile-text">
+                        <strong>Prince</strong>
+                        <span>Trader</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>I've tried several online grocery stores, and Apna Kirana stands out for its superior quality and
+                    service. The range of products is impressive, and I love the regular discounts and offers.</p>
+            </div>
+
+            <!--box 8 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 8.jpg">
+                    <div class="profile-text">
+                        <strong>Kriti</strong>
+                        <span>Politician</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>I love shopping at Apna Kirana! The variety of products and the hassle-free delivery make my life so
+                    much easier. Highly recommended!.</p>
+            </div>
+
+            <!--box 9 -->
+            <div class="client-box">
+                <div class="client-profile">
+                    <img alt="client" src="./images/Person 9.jpg">
+                    <div class="profile-text">
+                        <strong>Anjali</strong>
+                        <span>Singer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <p>I've been a loyal Apna Kirana customer for years. The prices are competitive, and the discounts are
+                    fantastic. I wouldn't shop anywhere else for my groceries.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
