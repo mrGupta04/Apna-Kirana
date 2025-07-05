@@ -2,14 +2,7 @@
 
 **Apna Kirana** is a simple and responsive web application built using **HTML**, **CSS**, and **JavaScript** for purchasing and selling grocery items. It simulates the basic functionalities of an online kirana (grocery) shop where users can browse products and sellers can list their goods.
 
----
 
-## 🌐 Live Preview
-
-> [🔗 View Live Project](#)  
-> *(Replace this with your deployed link if hosted on GitHub Pages, Netlify, etc.)*
-
----
 
 ## ✨ Features
 
