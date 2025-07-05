@@ -1,10 +1,65 @@
-# Chitkara-Grocery-Store
-This is a website of an online grocery shopping platform developed using HTML, CSS and JS. This project involves only frontend coding languages. This was a group project and we will try to make it better. Any feedbacks are welcome on the project. One last thing, I am uploading the images used in this project but we have added the images using the URLs so there should be no need to add them again but still, for reference, we will be uploading the images.
+# 🛒 Apna Kirana – Online Grocery Store
 
-![Screenshot 2022-01-26 185244](https://user-images.githubusercontent.com/97402437/161426477-67971e4b-5d03-43f5-82eb-6b5c392e2653.png)
+**Apna Kirana** is a simple and responsive web application built using **HTML**, **CSS**, and **JavaScript** for purchasing and selling grocery items. It simulates the basic functionalities of an online kirana (grocery) shop where users can browse products and sellers can list their goods.
 
-![Screenshot 2022-01-26 185200](https://user-images.githubusercontent.com/97402437/161426498-f1562659-2055-4b4a-82a9-f9b7694c7f22.png)
+---
 
-![Screenshot 2022-01-24 213417](https://user-images.githubusercontent.com/97402437/161426503-968eea4c-5f58-4f65-9266-9a0fdf96f586.png)
+## 🌐 Live Preview
 
-![Screenshot 2022-01-24 213342](https://user-images.githubusercontent.com/97402437/161426513-002bc807-8451-45c2-9d2b-38a699204459.png)
+> [🔗 View Live Project](#)  
+> *(Replace this with your deployed link if hosted on GitHub Pages, Netlify, etc.)*
+
+---
+
+## ✨ Features
+
+- 🧺 Browse a wide range of grocery items
+- 🔍 Search and filter products
+- ➕ Add items to cart
+- 🛍️ View cart with total price calculation
+- 👨‍🌾 Sellers can list new products (static form or mock-up)
+- 📱 Fully responsive design for mobile and desktop
+
+---
+
+## 🧰 Tech Stack
+
+| Layer        | Technologies              |
+|--------------|---------------------------|
+| 🧩 Structure   | HTML5                     |
+| 🎨 Styling     | CSS3                     |
+| 🤖 Logic       | JavaScript (Vanilla)     |
+
+---
+
+
+
+
+
+
+## 📁 Folder Structure
+
+
+```
+apna-kirana/
+├── index.html # Homepage
+├── style.css # Main stylesheet
+├── script.js # Main JavaScript file
+├── assets/ # Images and icons
+└── README.md
+
+```
+
+---
+🧑‍💻 Developer Role
+Role: Frontend Web Developer
+
+Built static UI using HTML5 & CSS3
+
+Implemented interactivity using Vanilla JavaScript
+
+Designed product listing, cart logic, and responsive layout
+
+Ensured browser compatibility and mobile-first design
+
+---
