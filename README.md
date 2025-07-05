@@ -1,27 +1,65 @@
-# Django-registration-and-login-system
-This web app has been developed using the popular Django framework and Bootstrap for the frontend. My motivation to build this project is so that I can learn about Django and tighten up my skills. This mini-app can be easily integrated into a bigger system project that needs to have a registration and login system.
+# 🛒 Apna Kirana – Online Grocery Store
 
-### Basic Features of The App
-    
-* Register – Users can register and create a new profile
-* Login - Registered users can login using username and password
-* Social Apps Login – Users can login using their GitHub or Google account
-* User Profile - Once logged in, users can create and update additional information such as avatar and bio in the profile page
-* Update Profile – Users can update their information such as username, email, password, avatar and bio
-* Remember me – Cookie Option, users don’t have to provide credentials every time they hit the site
-* Forgot Password – Users can easily retrieve their password if they forget it 
-* Admin Panel – admin can CRUD users
+**Apna Kirana** is a simple and responsive web application built using **HTML**, **CSS**, and **JavaScript** for purchasing and selling grocery items. It simulates the basic functionalities of an online kirana (grocery) shop where users can browse products and sellers can list their goods.
 
-### Quick Start
-To get this project up and running locally on your computer follow the following steps.
-1. Set up a python virtual environment
-2. Run the following commands
+---
+
+## 🌐 Live Preview
+
+> [🔗 View Live Project](#)  
+> *(Replace this with your deployed link if hosted on GitHub Pages, Netlify, etc.)*
+
+---
+
+## ✨ Features
+
+- 🧺 Browse a wide range of grocery items
+- 🔍 Search and filter products
+- ➕ Add items to cart
+- 🛍️ View cart with total price calculation
+- 👨‍🌾 Sellers can list new products (static form or mock-up)
+- 📱 Fully responsive design for mobile and desktop
+
+---
+
+## 🧰 Tech Stack
+
+| Layer        | Technologies              |
+|--------------|---------------------------|
+| 🧩 Structure   | HTML5                     |
+| 🎨 Styling     | CSS3                     |
+| 🤖 Logic       | JavaScript (Vanilla)     |
+
+---
+
+
+
+
+
+
+## 📁 Folder Structure
+
+
 ```
-$ pip install -r requirements.txt
-$ python manage.py migrate
-$ python manage.py createsuperuser
-$ python manage.py runserver
-```
-   
-3. Open a browser and go to http://localhost:8000/
+apna-kirana/
+├── index.html # Homepage
+├── style.css # Main stylesheet
+├── script.js # Main JavaScript file
+├── assets/ # Images and icons
+└── README.md
 
+```
+
+---
+🧑‍💻 Developer Role
+Role: Frontend Web Developer
+
+Built static UI using HTML5 & CSS3
+
+Implemented interactivity using Vanilla JavaScript
+
+Designed product listing, cart logic, and responsive layout
+
+Ensured browser compatibility and mobile-first design
+
+---
